@@ -1,3 +1,9 @@
+local message = Instance.new(”Message”)
+message.Parent = game.Workspace
+message.Text = “Join HyperX Hub”
+wait(3)
+message:Remove()
+--Function
 for i = 1,150 do 
     game.ReplicatedStorage.SpawnRainbowBlock:FireServer()
 end
