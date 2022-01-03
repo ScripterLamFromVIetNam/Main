@@ -1,0 +1,15 @@
+local pid = game.PlaceId
+local current = "https://raw.githubusercontent.com/ScripterLamFromVIetNam/Main/main/"
+if pid == 4836887463 then
+    loadstring(game:HttpGet(current.."DogPiece.lua"))()
+elseif pid == 621129760 then
+    loadstring(game:HttpGet(current.."Kat.lua"))()
+elseif pid == 662417684 then
+    loadstring(game:HttpGet(current.."LuckyBlock.lua"))()
+elseif pid == 155615604 then
+    loadstring(game:HttpGet(current.."PrisonLife.lua"))()
+elseif pid == 4390380541 then
+    loadstring(game:HttpGet(current.."RumbleQuest.lua"))()
+elseif pid == 6728870912 then
+    loadstring(game:HttpGet(current.."WarOfStand.lua"))()
+end
